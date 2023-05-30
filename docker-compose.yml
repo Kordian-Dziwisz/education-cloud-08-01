@@ -1,0 +1,7 @@
+services:
+  server:
+    build: .
+    container_name: education-cloud-08-01-server
+    image: education-cloud-08-01-server
+    ports:
+      - "8080:8080"
